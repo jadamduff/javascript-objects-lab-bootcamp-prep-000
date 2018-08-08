@@ -6,5 +6,6 @@ var updateObjectWithKeyAndValue = function (object, key, value) {
 }
 
 var destructivelyDeleteFromObjectByKey = function(object, key) {
-  console.log(object)
+  delete object.key
+  return object
 }
